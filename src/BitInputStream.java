@@ -1,12 +1,8 @@
-/**
+ /*
  *	InputStream utility based on the java.nio package.  Reads
  *	up to 32 bits at a time from a file, using multiple buffers
  *	to quickly process read calls.  Runtime is approximately
  *	100 times faster than previous iteration built on java.io.
- *
- *	@contributor Owen Astrachan
- *	@author Brian Lavallee
- *	@date 10 April 2016
  */
 
 import java.io.*;
