@@ -1,11 +1,7 @@
-/**
+ /*
  * Utility binary-tree (Huffman tree) node for Huffman coding. This is a simple,
  * standard binary-tree node implementing the comparable interface based on
  * weight.
- * 
- * @author Brian Lavallee
- * @author Owen Astrachan
- * @version 2.0, no getters, just a plain old Java object aka POJO
  */
 
 public class HuffNode implements Comparable<HuffNode> {
