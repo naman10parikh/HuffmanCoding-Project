@@ -6,19 +6,11 @@ import javax.swing.SwingUtilities;
 import javax.swing.filechooser.FileFilter;
 
 
-/**
+ /*
  * This utility class creates a thread safe file dialog box for loading and
  * saving files.
- * 
- * @author Duke Software Team
- * 
- *         This software is licensed with an Apache 2 license, see
- *         http://www.apache.org/licenses/LICENSE-2.0 for details.
- *
- * @author ola
- * Modified Fall 2020 to add support for dialog messages
- * and default filenames in Huffman assignment
  */
+
 class FileSelector {
     // result of selection
     private static File[] ourFiles;
