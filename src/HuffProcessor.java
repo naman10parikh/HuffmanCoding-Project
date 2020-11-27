@@ -1,14 +1,12 @@
 import java.util.PriorityQueue;
 
-/**
+ /*
  * Although this class has a history of several years,
  * it is starting from a blank-slate, new and clean implementation
  * as of Fall 2018.
  * <P>
  * Changes include relying solely on a tree for header information
  * and including debug and bits read/written information
- * 
- * @author Owen Astrachan
  */
 
 public class HuffProcessor {
